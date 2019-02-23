@@ -17,7 +17,7 @@ end
 
 collection = [1, 2, 3, 4]
 
-puts my_select(collection) { |x|
+my_select(collection) { |x|
   x == 2  
 }
 
