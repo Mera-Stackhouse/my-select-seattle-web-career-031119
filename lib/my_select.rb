@@ -5,7 +5,7 @@ def my_select(collection)
     if !yield(collection[i]) 
       i += 1
     else
-      new_array[i] = collection[i]
+      new_array << collection[i]
       i += 1
     end
   end
