@@ -7,7 +7,7 @@ def my_select(collection)
       puts "pass"
     else
       new_array[i] = yield(collection[i])
-      puts new_array[i]
+      puts "this one"
       i += 1
     end
   end
