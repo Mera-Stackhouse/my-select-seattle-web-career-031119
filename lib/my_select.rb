@@ -4,8 +4,10 @@ def my_select(collection)
   while i < collection.length 
     if !yield(collection[i]) 
       i += 1
+      puts pass
     else
       new_array[i] = yield(collection[i])
+      puts new_array[i]
       i += 1
     end
   end
