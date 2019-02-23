@@ -18,6 +18,6 @@ end
 collection = [1, 2, 3, 4]
 
 my_select(collection) { |x|
-  x == 2  
+  x == 4 
 }
 
